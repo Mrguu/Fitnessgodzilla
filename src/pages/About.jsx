@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/About.css'
-import {Link} from 'react-scroll'
 function About() {
   return (
     <div className='aboutContainer'id='about'>

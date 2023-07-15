@@ -87,3 +87,29 @@
         margin-bottom: 40px;
     }
 }
+
+@media only screen and (max-width: 500px){
+    .info1{
+        width: 250px;
+        font-size: small;
+        margin: 10px;
+    }
+
+    .info2{
+        width: 250px;
+        font-size: small;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 315px){
+    .info1{
+        width: 200px;
+        margin: 10px 0px;
+    }
+
+    .info2{
+        width: 200px;
+        margin: 10px 0px;
+    }
+}

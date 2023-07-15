@@ -15,15 +15,15 @@ function Navbar() {
   return (
     <nav className='NavContainer'>
       <div className='NavLeftSide'>
-        <img src={logo}></img>
+        <img src={logo} prop=''></img>
         <h1>GODZILLA</h1>
       </div>
       <div  id={openLinks ? "open" : "close"}>
         <ul className='hiddenLinks'>
           <li><Link to='home' smooth={true} duration={1000}>Home</Link></li>
           <li><Link to='classes' smooth={true} duration={1000}>Classes</Link></li>
-          <li><Link to='#' smooth={true} duration={1000}>About</Link></li>
-          <li><Link to='#' smooth={true} duration={1000}>Contact</Link></li>
+          <li><Link to='about' smooth={true} duration={1000}>About</Link></li>
+          <li><Link to='contact' smooth={true} duration={1000}>Contact</Link></li>
         </ul>
       </div>
       <div className='NavRightSide'>

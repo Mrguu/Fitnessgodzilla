@@ -128,3 +128,9 @@
         left: 100px;
     }
 }
+
+@media only screen and (max-width: 400px){
+    .hiddenLinks{
+        left: 20px;
+    }
+}
