@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Fitnessgodzilla/static/css/main.64d110af.css",
+    "main.js": "/Fitnessgodzilla/static/js/main.8fd3557b.js",
+    "static/js/787.7600bb82.chunk.js": "/Fitnessgodzilla/static/js/787.7600bb82.chunk.js",
+    "static/media/yoga.jpg": "/Fitnessgodzilla/static/media/yoga.aaa63a0ee03a9370d28b.jpg",
+    "static/media/martial art.jpg": "/Fitnessgodzilla/static/media/martial art.085553c0e76dba535131.jpg",
+    "static/media/cardio.jpg": "/Fitnessgodzilla/static/media/cardio.f88a85c4e96a90b48247.jpg",
+    "static/media/weightlifting.jpg": "/Fitnessgodzilla/static/media/weightlifting.ac362f7014173bc98d3a.jpg",
+    "static/media/homebackground.jpg": "/Fitnessgodzilla/static/media/homebackground.c0c487ea27a8f547ae70.jpg",
+    "static/media/img1.png": "/Fitnessgodzilla/static/media/img1.decd89bc173a1c1aaa54.png",
+    "index.html": "/Fitnessgodzilla/index.html",
+    "main.64d110af.css.map": "/Fitnessgodzilla/static/css/main.64d110af.css.map",
+    "main.8fd3557b.js.map": "/Fitnessgodzilla/static/js/main.8fd3557b.js.map",
+    "787.7600bb82.chunk.js.map": "/Fitnessgodzilla/static/js/787.7600bb82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64d110af.css",
+    "static/js/main.8fd3557b.js"
+  ]
+}
