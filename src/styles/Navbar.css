@@ -1,0 +1,130 @@
+.NavContainer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(30, 28, 28);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    user-select: none;
+    position: fixed;
+    opacity: 0.8;
+    transition:all .6s ease-in-out;
+}
+
+.NavLeftSide{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(208, 22, 22);
+}
+
+.NavLeftSide img{
+    width: 50px;
+    height: auto;
+}
+
+.NavRightSide {
+    width: 50%;
+    position: relative;
+
+}
+
+.originLinks{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.originLinks li{
+    list-style: none;
+}
+.originLinks a{
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.originLinks a:hover{
+    color: red;
+}
+
+.NavRightSide button{
+   width: 50px;
+   height: 50px;
+   cursor: pointer;
+   background-color: rgb(55, 50, 50);
+   color: #fff;
+   margin-right: 10px;
+}
+
+.hiddenLinks{
+    list-style: none;
+    width: 350px;
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    left: 250px;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.hiddenLinks li{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: larger;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.hiddenLinks li:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.NavContainer #close .hiddenLinks{
+    opacity: 0;
+    top: -200px;
+    transform: translateY(-500px);
+    transition: 0.5s all ease;
+}
+
+.NavContainer #open .hiddenLinks{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 0.5s all ease;
+}
+
+@media only screen and (max-width: 900px){
+    .originLinks{
+        display: none;
+    }
+
+    .NavRightSide{
+        text-align: end ;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .hiddenLinks{
+        display: none;
+    }
+
+    .NavRightSide button{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .hiddenLinks{
+        left: 180px;
+        width: 270px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .hiddenLinks{
+        left: 100px;
+    }
+}

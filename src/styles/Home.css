@@ -1,0 +1,44 @@
+.homeContainer{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.homeContainer h2{
+    position: relative;
+    font-weight: bold;
+    width: 50%;
+    font-size: 45px;
+    left: 60px;
+    bottom: 30px;
+}
+
+.homeContainer p{
+    position: relative;
+    width: 50%;
+    font-size: 18px;
+    left: 60px;
+    bottom: 20px;
+}
+
+.homeContainer button{
+    position: relative;
+    width: 150px;
+    height: 30px;
+    left: 60px; 
+    border: none;
+    font-weight: bold;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    cursor: pointer;
+}
+
+.homeContainer button:hover{
+    background-color: rgb(82, 69, 69);
+}
